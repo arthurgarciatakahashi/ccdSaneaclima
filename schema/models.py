@@ -8,6 +8,7 @@ class FonteOrigem(str, Enum):
     SIMQUA = "SIMQUA_CETESB"
     CEMADEN = "CEMADEN"
     INMET = "INMET"
+    CETESB = "CETESB"
 
 class QualityFlag(str, Enum):
     VALIDO = "VALIDO"
